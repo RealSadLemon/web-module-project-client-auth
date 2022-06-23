@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar{
+  display: flex;
+  font-family: sans-serif;
+  width: 99vw;
+  justify-content: space-around;
+  border-bottom: solid .5rem black;
+  padding-bottom: .25rem;
+}
+
+.nav-bar a, .nav-bar button{
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vw;
+  padding: auto;
+}
+
+.login-form p{
+  font-family: sans-serif;
+  font-weight: 900;
+  padding-top: 40px;
+}
+
+.login-form form{
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.login-form form label{
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 550;
+}
+
+.login-form form label input{
+  height: 4rem;
+  width: 40vw;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.login-form form button{
+  height: 4rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
